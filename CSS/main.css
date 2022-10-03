@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainCon{
+    background-color: lightyellow;
+    height: 100vh;
+    width: 100vw;
+}
+.pcs{
+    position: relative;
+}
+img{
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    width: 700px;
+    object-fit: cover;
+    object-position: center center;
+    top: 150px;
+    right: calc(50% - 350px);
+    /* visibility: hidden; */
+    z-index: 3;
+}
